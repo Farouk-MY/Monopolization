@@ -1,0 +1,21 @@
+.typing-deleting-animation {
+    font-family: cursive;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 600;
+    color: beige;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 16em; /* Adjust width as needed */
+    animation: typing-deleting 6s infinite;
+  }
+  
+  @keyframes typing-deleting {
+    100%, 50%, 0% {
+      width: 3em;
+    }
+    75%, 25% {
+      width: 14em;
+    }
+  }
+  
